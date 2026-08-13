@@ -42,6 +42,13 @@ const renderSections = (sections = []) => {
     section.className = "content-section";
     section.id = item.anchor || (index === 0 ? "science" : `section-${index + 1}`);
 
+    if (item.eyebrow) {
+      const eyebrow = document.createElement("p");
+      eyebrow.className = "eyebrow";
+      eyebrow.textContent = item.eyebrow;
+      section.appendChild(eyebrow);
+    }
+
     const heading = document.createElement("h2");
     heading.textContent = item.title;
     section.appendChild(heading);
@@ -49,6 +56,17 @@ const renderSections = (sections = []) => {
     const body = document.createElement("div");
     renderRichText(body, item.body);
     section.appendChild(body);
+
+    if (item.items?.length) {
+      const list = document.createElement("ul");
+      list.className = "feature-list";
+      item.items.forEach((itemText) => {
+        const li = document.createElement("li");
+        li.textContent = itemText;
+        list.appendChild(li);
+      });
+      section.appendChild(list);
+    }
     root.appendChild(section);
   });
 };

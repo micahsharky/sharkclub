@@ -1,37 +1,177 @@
 {
-  "siteName": "SHARK CLUB",
-  "tagline": "Student explorers for shark science & ocean conservation",
+  "siteName": "SHARK RESEARCH CLUB",
+  "tagline": "Research. Respect. Discover.",
   "heroImage": "assets/hero-shark.png",
-  "notice": "Stay up to date with dives, talks, and field events — join the Shark Club list.",
-  "noticeLink": "#membership",
-  "introTitle": "Welcome to Shark Club!",
-  "introBody": "We are a student-led community dedicated to shark science, ocean literacy, and conservation. We bring curious people together to learn from researchers, build field skills, and advocate for healthy oceans.\n\nOur events are open to students from every background. No marine biology experience—and no scuba certification—is required.",
+  "notice": "Stay involved: follow club announcements for meetings, research presentations, field activities, guest speakers, and outreach.",
+  "noticeLink": "#news-events",
+  "introTitle": "Research. Respect. Discover.",
+  "introBody": "A student-led marine science organization focused on the biology, ecology, conservation, and responsible field research of sharks.\n\nOur primary research species are the Bluntnose Sixgill Shark, Pacific Spiny Dogfish, and Common Thresher Shark.\n\nOur mission is to build practical research skills, collect reliable observations, expand knowledge of sharks, and promote responsible stewardship of marine ecosystems.",
   "sections": [
     {
-      "title": "Who joins Shark Club?",
-      "anchor": "science",
-      "body": "Undergraduate and graduate students from every field are welcome. Our members include future scientists, filmmakers, divers, designers, educators, and people who simply want to better understand sharks and their place in the ocean.\n\nWe share a respect for wildlife, a love of learning, and a commitment to evidence-based conservation."
+      "eyebrow": "ABOUT THE CLUB",
+      "title": "Who we are",
+      "anchor": "about",
+      "body": "The Shark Research Club is a student-centered organization for people interested in sharks, marine biology, fisheries science, ecology, conservation, and scientific research.\n\nWe combine classroom learning with responsible field observation, research projects, data analysis, and education.",
+      "items": [
+        "Science — Use evidence and reliable sources.",
+        "Safety — Protect participants and wildlife.",
+        "Respect — Treat wild animals and marine habitats responsibly.",
+        "Accuracy — Record observations carefully.",
+        "Conservation — Use research to improve understanding and stewardship."
+      ]
     },
     {
-      "title": "Learn beyond the classroom",
+      "eyebrow": "RESEARCH SPECIES",
+      "title": "Three species, many questions",
+      "anchor": "species",
+      "body": "Bluntnose Sixgill Shark — Our primary research species. Its deep-water lifestyle, large size, unusual anatomy, and limited direct observation make it an important subject for scientific study.\n\nPacific Spiny Dogfish — A coastal shark that provides opportunities to study distribution, schooling behavior, diet, and population patterns.\n\nCommon Thresher Shark — A large shark recognized by its exceptionally long upper tail lobe and specialized open-water ecology."
+    },
+    {
+      "eyebrow": "BLUNTNOSE SIXGILL SHARK",
+      "title": "A difficult shark to study",
+      "anchor": "sixgill",
+      "body": "The Bluntnose Sixgill Shark (Hexanchus griseus) is a large deep-water shark recognized by six pairs of gill slits, a broad rounded snout, and a single dorsal fin. It is one of the most distinctive large sharks found in the Pacific Northwest.\n\nMuch of the sixgill's life occurs in deeper marine environments that are difficult to observe directly. Reliable observations are therefore especially valuable. Sixgills are associated with deep continental shelves and slopes and have been recorded at great depths. They can also occur in coastal and inland marine environments, including parts of the Pacific Northwest.",
+      "items": [
+        "Appearance: six pairs of gill slits, a broad blunt snout, small eyes, a large body, one dorsal fin, and dark brown, gray, or olive coloration.",
+        "Size and life history: sixgills can reach approximately 5.5 meters in length. They are long-lived sharks, and females can produce large litters of live young.",
+        "Diet: documented prey includes fishes, squid, crustaceans, other sharks, and marine mammals.",
+        "Behavior: researchers are still learning how sixgills use different depths and habitats, how their movements change over time, and how behavior relates to environmental conditions."
+      ]
+    },
+    {
+      "eyebrow": "WHY WE RESEARCH SIXGILLS",
+      "title": "Every observation can add to the bigger picture",
+      "anchor": "sixgill-research",
+      "body": "The Bluntnose Sixgill Shark is a large, long-lived predator that spends much of its life in environments that are difficult to observe. Many questions about its biology, movement, population structure, and habitat use remain open to research.\n\nSixgills are predators within marine food webs. Studying their diet, movements, and habitat use can help researchers understand their relationships with prey, competitors, and other predators. Reliable observations can help identify areas where sixgills occur repeatedly, the habitats they use, and changes in their distribution over time.",
+      "items": [
+        "Long-term records can reveal population patterns that a single observation cannot.",
+        "Research can examine growth, age structure, maturity, reproduction, juvenile and adult distribution, movement, and longevity.",
+        "Movement research can help identify where individuals travel, which depths they use, seasonal changes, and important habitats.",
+        "Research can document fisheries interactions and provide information useful to fisheries management.",
+        "Better knowledge of distribution, population patterns, habitat, and human impacts supports more informed conservation."
+      ]
+    },
+    {
+      "eyebrow": "SIXGILL RESEARCH",
+      "title": "From observations to reliable data",
+      "anchor": "sixgill-data",
+      "body": "Research questions include: Where are sixgills being observed? What sizes and sexes are represented? What habitats are associated with observations? Do observations change seasonally? What can long-term records tell us about local populations?\n\nResearch does not always require catching an animal. Photography, video observation, environmental measurements, existing datasets, literature reviews, and remote observations can all contribute to scientific understanding.\n\nOur standard is to collect only information that is necessary for the research question and can be obtained safely and responsibly.",
+      "items": [
+        "Species identification, date and time, and general location.",
+        "Environmental conditions and observed behavior.",
+        "Size information and sex only when safely obtained or identifiable.",
+        "Release condition when relevant."
+      ]
+    },
+    {
+      "eyebrow": "SIXGILL HANDLING SAFETY",
+      "title": "Wildlife comes first",
+      "anchor": "safety",
+      "body": "A large sixgill shark must be treated as a powerful wild animal. Close interaction can create serious risks for people and stress or injure the shark.\n\nAny capture or handling of a sixgill for research should be performed only by appropriately trained and supervised personnel working under applicable regulations and an established research protocol. The shark's welfare comes before measurements, photographs, or other data.\n\nIf you are not trained, do not attempt to handle a sixgill independently. Observe from a safe distance and involve qualified adults or researchers.",
+      "items": [
+        "Plan the activity before it begins and follow applicable laws, permits, and institutional requirements.",
+        "Have qualified supervision and keep unnecessary people away from the animal.",
+        "Minimize handling and disturbance; treat the mouth, teeth, and entire animal as hazardous.",
+        "Avoid unnecessary restraint, lifting, or dragging, and have a release plan before handling begins."
+      ]
+    },
+    {
+      "eyebrow": "PACIFIC SPINY DOGFISH",
+      "title": "Coastal patterns and schooling behavior",
+      "anchor": "dogfish",
+      "body": "The Pacific Spiny Dogfish is a smaller shark that can occur in schools along the Pacific coast. Its biology makes it useful for studying distribution, population patterns, feeding ecology, and shark behavior.",
+      "items": ["Size and length", "Sex ratios", "Distribution and habitat", "Diet", "Schooling behavior", "Seasonal abundance"]
+    },
+    {
+      "eyebrow": "COMMON THRESHER SHARK",
+      "title": "Open-water ecology",
+      "anchor": "thresher",
+      "body": "The Common Thresher Shark is a large shark recognized by its exceptionally long upper tail lobe. It is associated with open-water environments and has specialized feeding behavior.",
+      "items": ["Distribution", "Habitat", "Size", "Behavior", "Feeding ecology", "Seasonal occurrence"]
+    },
+    {
+      "eyebrow": "FIELD RESEARCH",
+      "title": "From observation to data",
+      "anchor": "field-research",
+      "body": "Good research begins with a clear question, a consistent method, and accurate records. Possible records include species, date, time, general location, environmental conditions, size information when safely available, behavior, and release condition.\n\nRecord observations promptly. Clearly separate measured information from estimates and keep methods consistent. Wildlife should never be disturbed simply to obtain a photograph or piece of data. If useful information can be collected without handling an animal, non-invasive observation is preferred."
+    },
+    {
+      "eyebrow": "RESPONSIBLE CATCH & RELEASE",
+      "title": "Research, not recreation",
+      "anchor": "catch-release",
+      "body": "When capture is part of an authorized scientific project, the objective is to answer a research question while minimizing stress and injury. No measurement, photograph, or research result is more important than the safety and welfare of the animal.",
+      "items": ["Plan before capture and confirm applicable regulations and authorization.", "Use trained personnel and minimize handling time.", "Collect only necessary information.", "Prioritize animal welfare and release according to the approved protocol."]
+    },
+    {
+      "eyebrow": "CONSERVATION",
+      "title": "Science-based stewardship",
+      "anchor": "conservation",
+      "body": "Sharks play important roles in marine ecosystems. Understanding their populations and habitats helps scientists and resource managers make informed conservation decisions.\n\nOur goal is to promote science-based understanding and responsible stewardship of shark populations and marine habitats.",
+      "items": ["Fishing pressure", "Bycatch", "Habitat changes", "Population trends", "Fisheries interactions", "Marine ecosystem health"]
+    },
+    {
+      "eyebrow": "RESEARCH PROJECTS",
+      "title": "Student research",
+      "anchor": "projects",
+      "body": "Members can develop projects based on questions about shark biology, ecology, distribution, behavior, and conservation.\n\nMembers learn how to form research questions, find reliable sources, organize data, analyze observations, and communicate scientific results. Our process: Question → Background Research → Data Collection → Analysis → Conclusions → Presentation.",
+      "items": ["Build a local shark observation database.", "Compare seasonal observations.", "Create species identification guides.", "Analyze published sixgill research and review population studies.", "Document habitat conditions and study shark conservation issues."]
+    },
+    {
+      "eyebrow": "EDUCATION & OUTREACH",
+      "title": "Sharing shark science",
+      "anchor": "outreach",
+      "body": "We want to make shark biology understandable and accurate for students, families, and the broader community. Sharks are complex animals. Understanding them requires evidence, observation, and scientific research—not fear or myths.",
+      "items": ["Shark biology presentations", "Species identification", "Research presentations", "Conservation education", "Shark myth and fact programs", "Marine ecology activities"]
+    },
+    {
+      "eyebrow": "MEMBERSHIP",
+      "title": "Join the club",
+      "anchor": "membership-details",
+      "body": "You do not need to be an expert to participate. Curiosity and a willingness to learn are the most important requirements. Activities involving wildlife are subject to age-appropriate supervision, safety requirements, applicable laws, and research protocols.",
+      "items": ["Learn shark biology and study scientific research.", "Participate in educational projects and practice data recording.", "Attend supervised field activities.", "Develop research skills and explore marine science careers."]
+    },
+    {
+      "eyebrow": "RESOURCES",
+      "title": "Build better research",
+      "anchor": "resources",
+      "body": "Members are encouraged to use peer-reviewed research, universities, government agencies, museums, aquariums, and established scientific organizations.\n\nEvaluate your sources: ask who published the information, what evidence supports it, when it was published, and whether reliable sources agree. Good science depends on reliable sources, careful observation, transparent methods, and accurate records."
+    },
+    {
+      "eyebrow": "NEWS & EVENTS",
+      "title": "Stay involved",
+      "anchor": "news-events",
+      "body": "Follow club announcements for meetings, research presentations, field activities, guest speakers, educational events, and community outreach.\n\nUpcoming events: add an event calendar or schedule here.\n\nResearch updates: add project updates, field notes, publications, and research highlights here."
+    },
+    {
+      "eyebrow": "LEADERSHIP",
+      "title": "Club leadership",
       "anchor": "leadership",
-      "body": "Club nights bring researchers, conservation leaders, photographers, and field professionals into the room for honest conversations about their work. Field days turn that knowledge into practice through coastal surveys, species identification, community science, and public outreach.\n\nLeadership roles give members the chance to plan programs, host speakers, and shape the future of the club."
+      "body": "Our leadership team coordinates meetings, research projects, education, outreach, communications, and field activities. Our goal is to build a club culture centered on scientific responsibility, teamwork, safety, and curiosity.",
+      "items": ["President", "Vice President", "Research Coordinator", "Safety Coordinator", "Outreach Coordinator", "Communications Director", "Treasurer", "Faculty or Scientific Advisor"]
+    },
+    {
+      "eyebrow": "CONTACT",
+      "title": "Contact the Shark Research Club",
+      "anchor": "contact",
+      "body": "Questions about membership, research, education, or supervised field activities? Contact us.\n\nClub information: Email: [Club Email] • School / Organization: [Name] • Meeting Location: [Location] • Meeting Schedule: [Schedule]\n\nResearch. Respect. Discover."
     }
   ],
-  "benefitsTitle": "Benefits of participating",
-  "benefitsIntro": "Learn alongside working scientists, practice responsible field observation, and meet people who care about sharks as much as you do.",
+  "benefitsTitle": "What we do",
+  "benefitsIntro": "Our focus is responsible, evidence-based shark science: practical research skills, reliable observations, and stewardship of marine ecosystems.",
   "benefits": [
-    "Research talks and career conversations with shark scientists",
-    "Coastal field days, public outreach, and citizen-science projects",
-    "Workshops in identification, data skills, science communication, and conservation"
+    "Shark biology and species identification",
+    "Supervised field research and authorized catch-and-release research",
+    "Data collection and analysis",
+    "Marine ecology projects",
+    "Conservation education, scientific presentations, and outreach"
   ],
-  "joinTitle": "Join Shark Club",
-  "joinBody": "Come to a meeting, bring your questions, and meet your future field crew. Everyone is welcome.",
-  "joinLink": "mailto:hello@sharkclub.org",
-  "footerBlurb": "For the curious, the conservation-minded, and everyone drawn to the ocean.",
-  "meetingInfo": "Bi-weekly meetings • Location and time announced with each event",
+  "joinTitle": "Join the club",
+  "joinBody": "You do not need to be an expert to participate. Curiosity and a willingness to learn are the most important requirements.",
+  "joinButton": "Contact the club",
+  "joinLink": "#contact",
+  "footerBlurb": "Bluntnose Sixgill • Pacific Spiny Dogfish • Common Thresher\n\nResearch • Education • Conservation • Responsible Field Science",
+  "meetingInfo": "[School / Organization] • Meeting Location: [Location] • Meeting Schedule: [Schedule]",
   "socialLinks": [
-    { "label": "Instagram", "url": "https://instagram.com/" },
-    { "label": "Discord", "url": "https://discord.com/" }
+    { "label": "Club email: [Club Email]", "url": "#contact" }
   ]
 }

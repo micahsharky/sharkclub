@@ -32,14 +32,17 @@ collections:
             widget: list
             summary: "{{fields.title}}"
             fields:
+              - { label: Eyebrow, name: eyebrow, widget: string, required: false }
               - { label: Heading, name: title, widget: string }
               - { label: Navigation anchor, name: anchor, widget: string, required: false }
               - { label: Copy, name: body, widget: text }
+              - { label: Key points, name: items, widget: list, required: false, field: { label: Point, name: point, widget: string } }
           - { label: Benefits heading, name: benefitsTitle, widget: string }
           - { label: Benefits introduction, name: benefitsIntro, widget: text }
           - { label: Benefits, name: benefits, widget: list, field: { label: Benefit, name: benefit, widget: string } }
           - { label: Join heading, name: joinTitle, widget: string }
           - { label: Join copy, name: joinBody, widget: text }
+          - { label: Join button label, name: joinButton, widget: string }
           - { label: Join button link, name: joinLink, widget: string }
           - { label: Footer description, name: footerBlurb, widget: text }
           - { label: Meeting information, name: meetingInfo, widget: string }
