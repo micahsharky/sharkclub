@@ -11,6 +11,12 @@
     </style>
   </head>
   <body>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      window.netlifyIdentity?.init({
+        APIUrl: "https://sharkclub-cms-auth.netlify.app/.netlify/identity"
+      });
+    </script>
     <script src="https://unpkg.com/decap-cms@^3.8.0/dist/decap-cms.js"></script>
   </body>
 </html>

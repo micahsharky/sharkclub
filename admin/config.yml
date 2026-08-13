@@ -1,8 +1,7 @@
 backend:
-  name: github
-  repo: micahsharky/sharkclub
+  name: git-gateway
   branch: main
-  squash_merges: true
+  site_domain: sharkclub-cms-auth.netlify.app
 
 local_backend: true
 site_url: https://micahsharky.github.io/sharkclub/

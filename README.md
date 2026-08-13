@@ -19,20 +19,13 @@ Open `http://localhost:8080/` for the site and `http://localhost:8080/admin/` fo
 
 If the repository owner, repository name, branch, or domain changes, update `admin/config.yml`.
 
-## Enable the live CMS login
+## Live CMS login
 
-The admin UI is already configured at `https://micahsharky.github.io/sharkclub/admin/`. GitHub requires an OAuth server for browser-based CMS authentication; GitHub Pages does not provide one.
+The admin UI is available at `https://micahsharky.github.io/sharkclub/admin/`. GitHub Pages hosts the public site and Netlify Identity plus Git Gateway provide secure CMS authentication and repository writes.
 
-Use Decap's supported GitHub authentication setup:
+The dedicated Netlify auth project is `sharkclub-cms-auth`. It is connected to this GitHub repository, uses invite-only Netlify Identity, and has Git Gateway enabled. Invite editors in **Netlify → sharkclub-cms-auth → Identity**; invited users can edit and upload from `/admin/` without GitHub access. Every publish is committed to GitHub and automatically redeployed by GitHub Pages.
 
-1. Create a small Netlify site linked to this repository. It is used for authentication only; GitHub Pages remains the public host.
-2. In that Netlify site's access/authentication settings, add GitHub as an OAuth provider and connect it to the repository.
-3. Confirm that the site's domain is allowed for authentication. If Netlify gives the auth site a separate domain, add its hostname as `site_domain` under `backend` in `admin/config.yml`.
-4. Editors sign in from `/admin/` with a GitHub account that has push access to this repository. They edit content and upload images from the CMS; publishing commits those changes and triggers the Pages deployment automatically.
-
-For editors who should not need GitHub accounts or repository access, switch the CMS backend to `git-gateway` and enable an identity provider connected to the repository.
-
-Official references: [Decap GitHub backend](https://decapcms.org/docs/github-backend/) and [backend authentication overview](https://decapcms.org/docs/backends-overview/).
+Official references: [Decap Git Gateway](https://decapcms.org/docs/git-gateway-backend/) and [Netlify Identity setup](https://decapcms.org/docs/choosing-a-backend/).
 
 ## Editable content
 
