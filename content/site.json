@@ -1,0 +1,37 @@
+{
+  "siteName": "SHARK CLUB",
+  "tagline": "Student explorers for shark science & ocean conservation",
+  "heroImage": "assets/hero-shark.png",
+  "notice": "Stay up to date with dives, talks, and field events — join the Shark Club list.",
+  "noticeLink": "#membership",
+  "introTitle": "Welcome to Shark Club!",
+  "introBody": "We are a student-led community dedicated to shark science, ocean literacy, and conservation. We bring curious people together to learn from researchers, build field skills, and advocate for healthy oceans.\n\nOur events are open to students from every background. No marine biology experience—and no scuba certification—is required.",
+  "sections": [
+    {
+      "title": "Who joins Shark Club?",
+      "anchor": "science",
+      "body": "Undergraduate and graduate students from every field are welcome. Our members include future scientists, filmmakers, divers, designers, educators, and people who simply want to better understand sharks and their place in the ocean.\n\nWe share a respect for wildlife, a love of learning, and a commitment to evidence-based conservation."
+    },
+    {
+      "title": "Learn beyond the classroom",
+      "anchor": "leadership",
+      "body": "Club nights bring researchers, conservation leaders, photographers, and field professionals into the room for honest conversations about their work. Field days turn that knowledge into practice through coastal surveys, species identification, community science, and public outreach.\n\nLeadership roles give members the chance to plan programs, host speakers, and shape the future of the club."
+    }
+  ],
+  "benefitsTitle": "Benefits of participating",
+  "benefitsIntro": "Learn alongside working scientists, practice responsible field observation, and meet people who care about sharks as much as you do.",
+  "benefits": [
+    "Research talks and career conversations with shark scientists",
+    "Coastal field days, public outreach, and citizen-science projects",
+    "Workshops in identification, data skills, science communication, and conservation"
+  ],
+  "joinTitle": "Join Shark Club",
+  "joinBody": "Come to a meeting, bring your questions, and meet your future field crew. Everyone is welcome.",
+  "joinLink": "mailto:hello@sharkclub.org",
+  "footerBlurb": "For the curious, the conservation-minded, and everyone drawn to the ocean.",
+  "meetingInfo": "Bi-weekly meetings • Location and time announced with each event",
+  "socialLinks": [
+    { "label": "Instagram", "url": "https://instagram.com/" },
+    { "label": "Discord", "url": "https://discord.com/" }
+  ]
+}

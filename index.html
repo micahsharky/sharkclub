@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shark Club — connecting students with shark science, conservation, and the ocean." />
+    <meta name="theme-color" content="#06394a" />
+    <title>Shark Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header" id="home">
+      <img class="hero-image" data-content-image="heroImage" src="assets/hero-shark.png" alt="A blue shark swimming through sunlit ocean water" />
+      <div class="hero-shade"></div>
+      <div class="hero-content wrap">
+        <a class="club-mark" href="#home" aria-label="Shark Club home">
+          <span class="mark-icon" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img"><path d="M5 43c13-1 18-8 24-22 2-5 5-11 10-14-1 11 2 21 12 29l8 7H5Z"/><path class="wave" d="M4 49c9-4 18-4 27 0s18 4 29 0"/></svg>
+          </span>
+          <span class="mark-copy">
+            <strong data-content="siteName">SHARK CLUB</strong>
+            <small>SCIENCE • COMMUNITY • CONSERVATION</small>
+          </span>
+        </a>
+        <h1 data-content="siteName">SHARK CLUB</h1>
+        <p data-content="tagline">Student explorers for shark science &amp; ocean conservation</p>
+      </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <div class="nav-inner wrap">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span>Menu</span><span aria-hidden="true">☰</span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#home">Home</a>
+          <a href="#events">Upcoming Events</a>
+          <a href="#outreach">Club Outreach</a>
+          <a href="#science">Shark Science</a>
+          <a href="#leadership">Leadership Team</a>
+          <a href="#membership">Membership</a>
+        </div>
+        <a class="scroll-cue" href="#content" aria-label="Scroll down to content">↓</a>
+      </div>
+    </nav>
+
+    <main id="content">
+      <article class="page wrap-narrow">
+        <p class="eyebrow">WELCOME TO THE CLUB</p>
+        <a class="notice" id="events" data-content-link="noticeLink" href="#membership">
+          <span class="notice-dot" aria-hidden="true"></span>
+          <span data-content="notice">Stay up to date with dives, talks, and field events — join the Shark Club list.</span>
+          <span aria-hidden="true">→</span>
+        </a>
+
+        <section>
+          <h2 data-content="introTitle">Welcome to Shark Club!</h2>
+          <div data-content-rich="introBody">
+            <p>We are a student-led community dedicated to shark science, ocean literacy, and conservation. We bring curious people together to learn from researchers, build field skills, and advocate for healthy oceans.</p>
+            <p>Our events are open to students from every background. No marine biology experience—and no scuba certification—is required.</p>
+          </div>
+        </section>
+
+        <div id="dynamic-sections"></div>
+
+        <section class="benefits" id="outreach">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2 data-content="benefitsTitle">Benefits of participating</h2>
+          <p data-content="benefitsIntro">Learn alongside working scientists, practice responsible field observation, and meet people who care about sharks as much as you do.</p>
+          <ul class="feature-list" id="benefits-list">
+            <li>Research talks and career conversations with shark scientists</li>
+            <li>Coastal field days, public outreach, and citizen-science projects</li>
+            <li>Workshops in identification, data skills, science communication, and conservation</li>
+          </ul>
+        </section>
+
+        <section class="join-card" id="membership">
+          <div>
+            <p class="eyebrow">DIVE IN</p>
+            <h2 data-content="joinTitle">Join Shark Club</h2>
+            <p data-content="joinBody">Come to a meeting, bring your questions, and meet your future field crew. Everyone is welcome.</p>
+          </div>
+          <a class="button" data-content-link="joinLink" href="mailto:hello@sharkclub.org">Become a member <span aria-hidden="true">→</span></a>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main wrap">
+        <div>
+          <a class="footer-brand" href="#home">
+            <span class="fin" aria-hidden="true"></span>
+            <strong data-content="siteName">SHARK CLUB</strong>
+          </a>
+          <p data-content="footerBlurb">For the curious, the conservation-minded, and everyone drawn to the ocean.</p>
+        </div>
+        <div>
+          <p class="footer-label">GENERAL MEETING INFO</p>
+          <p data-content="meetingInfo">Bi-weekly meetings • Location and time announced with each event</p>
+        </div>
+        <div class="footer-social">
+          <p class="footer-label">FOLLOW THE CLUB</p>
+          <div id="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Discord</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom wrap">
+        <span>© <span id="year"></span> <span data-content="siteName">Shark Club</span></span>
+        <a href="admin/">Club admin</a>
+      </div>
+    </footer>
+  </body>
+</html>

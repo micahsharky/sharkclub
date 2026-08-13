@@ -1,0 +1,13 @@
+{
+  "name": "shark-club-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n site,cms \"serve . -l 8080\" \"decap-server\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "decap-server": "^3.3.1",
+    "serve": "^14.2.4"
+  }
+}

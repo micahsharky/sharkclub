@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: micahoverland/sharkclub
+  branch: main
+  squash_merges: true
+
+local_backend: true
+site_url: https://micahoverland.github.io/sharkclub/
+display_url: https://micahoverland.github.io/sharkclub/
+logo_url: https://micahoverland.github.io/sharkclub/assets/hero-shark.png
+media_folder: assets/uploads
+public_folder: /sharkclub/assets/uploads
+
+collections:
+  - name: site
+    label: Website
+    files:
+      - name: homepage
+        label: Homepage
+        file: content/site.json
+        format: json
+        fields:
+          - { label: Club name, name: siteName, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: Hero image, name: heroImage, widget: image }
+          - { label: Announcement, name: notice, widget: string }
+          - { label: Announcement link, name: noticeLink, widget: string, hint: "Use a full URL or an on-page anchor such as #membership" }
+          - { label: Introduction heading, name: introTitle, widget: string }
+          - { label: Introduction, name: introBody, widget: text }
+          - label: Main sections
+            name: sections
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Heading, name: title, widget: string }
+              - { label: Navigation anchor, name: anchor, widget: string, required: false }
+              - { label: Copy, name: body, widget: text }
+          - { label: Benefits heading, name: benefitsTitle, widget: string }
+          - { label: Benefits introduction, name: benefitsIntro, widget: text }
+          - { label: Benefits, name: benefits, widget: list, field: { label: Benefit, name: benefit, widget: string } }
+          - { label: Join heading, name: joinTitle, widget: string }
+          - { label: Join copy, name: joinBody, widget: text }
+          - { label: Join button link, name: joinLink, widget: string }
+          - { label: Footer description, name: footerBlurb, widget: text }
+          - { label: Meeting information, name: meetingInfo, widget: string }
+          - label: Social links
+            name: socialLinks
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: URL, name: url, widget: string }
