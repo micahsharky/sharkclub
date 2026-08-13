@@ -1,13 +1,13 @@
 backend:
   name: github
-  repo: micahoverland/sharkclub
+  repo: micahsharky/sharkclub
   branch: main
   squash_merges: true
 
 local_backend: true
-site_url: https://micahoverland.github.io/sharkclub/
-display_url: https://micahoverland.github.io/sharkclub/
-logo_url: https://micahoverland.github.io/sharkclub/assets/hero-shark.png
+site_url: https://micahsharky.github.io/sharkclub/
+display_url: https://micahsharky.github.io/sharkclub/
+logo_url: https://micahsharky.github.io/sharkclub/assets/hero-shark.png
 media_folder: assets/uploads
 public_folder: /sharkclub/assets/uploads
 

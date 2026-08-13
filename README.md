@@ -13,15 +13,15 @@ Open `http://localhost:8080/` for the site and `http://localhost:8080/admin/` fo
 
 ## Publish on GitHub Pages
 
-1. Create or use the `micahoverland/sharkclub` GitHub repository and push this project to its `main` branch.
+1. Create or use the `micahsharky/sharkclub` GitHub repository and push this project to its `main` branch.
 2. In the repository, open **Settings → Pages** and choose **GitHub Actions** as the source.
-3. The included Pages workflow publishes the site at `https://micahoverland.github.io/sharkclub/`.
+3. The included Pages workflow publishes the site at `https://micahsharky.github.io/sharkclub/`.
 
 If the repository owner, repository name, branch, or domain changes, update `admin/config.yml`.
 
 ## Enable the live CMS login
 
-The admin UI is already configured at `https://micahoverland.github.io/sharkclub/admin/`. GitHub requires an OAuth server for browser-based CMS authentication; GitHub Pages does not provide one.
+The admin UI is already configured at `https://micahsharky.github.io/sharkclub/admin/`. GitHub requires an OAuth server for browser-based CMS authentication; GitHub Pages does not provide one.
 
 Use Decap's supported GitHub authentication setup:
 
